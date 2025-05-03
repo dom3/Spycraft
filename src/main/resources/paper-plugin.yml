@@ -1,0 +1,27 @@
+name: Spycraft
+version: '1.0.0'
+main: xyz.domcore.spycraft.PluginCore
+api-version: '1.21'
+depend: [BlueSlimeCore, Citizens, WorldEdit]
+dependencies:
+  server:
+    CommandAPI:
+      load: BEFORE
+      required: true
+      join-classpath: true
+    BlueSlimeCore:
+      load: BEFORE
+      required: true
+      join-classpath: true
+    WorldEdit:
+      load: BEFORE
+      required: true
+      join-classpath: true
+    Multiverse-Core:
+      load: BEFORE
+      required: true
+      join-classpath: true
+    Citizens:
+      load: BEFORE
+      required: true
+      join-classpath: true
